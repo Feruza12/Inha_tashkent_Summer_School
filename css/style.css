@@ -1,9 +1,27 @@
+@font-face {
+  font-family: "Raleway_ex";
+  src: url("../fonts/Raleway/Raleway-Regular.ttf");
+  src: url("../fonts/Raleway/Raleway-Regular.woff");
+  src: url("../fonts/Raleway/Raleway-Regular.woff2");
+}
+@font-face {
+  font-family: "Raleway_Thin";
+  src: url("../fonts/Raleway/Raleway-Thin.ttf");
+  src: url("../fonts/Raleway/Raleway-Thin.woff");
+  src: url("../fonts/Raleway/Raleway-Thin.woff2");
+}
+@font-face {
+  font-family: "Lobster";
+  src: url("../fonts/Lobster/Lobster-Regular.ttf");
+  src: url("../fonts/Lobster/Lobster-Regular.woff");
+  src: url("../fonts/Lobster/Lobster-Regular.woff2");
+}
 *{
 	margin: 0;
 	padding: 0;
 }
 body{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway_ex', sans-serif;
 }
 .leading{
 	background: linear-gradient(#495DA0,#909FD5);
@@ -14,8 +32,8 @@ body{
 .logo{
 	width: 360px;
 	height: 45px;
-	margin-left: 	0;
-	margin-right: 	0;
+	margin-left:0;
+	margin-right:0;
 }
 .img_logo{
 	width: 100%;
@@ -54,10 +72,9 @@ header ul li a:hover{
 	color: white;
 	text-align: center;
 	margin-top: 60px;
-	font-weight: 300;
+	font-family: 'Raleway_Thin';
 }
 .heading h1{
-	font-weight: 250;
 	font-size: 3.3em;
 	display: inline-block;
 }
